@@ -1,0 +1,40 @@
+.Cate {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categori__update {
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.categori__update:hover {
+    background-color: rgb(78, 78, 145);
+}
+
+.categori__delete {
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.categori__delete:hover {
+    background-color: rgb(111, 65, 65);
+}
+
+.categori__succes {
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
